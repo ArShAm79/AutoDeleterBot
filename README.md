@@ -15,9 +15,6 @@ Telegram Message Auto-Deletion Bot is a simple yet powerful Telegram bot that au
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Configuration](#configuration)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Prerequisites
 
@@ -31,4 +28,41 @@ Before you can run this bot, you'll need the following:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/telegram-auto-delete-bot.git
+   git clone https://github.com/Arsham79/AutoDeleterBot.git
+
+   ```
+
+2. Change into the project directory:
+
+   ```bash
+   cd AutoDeleterBot
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Create a .env file in the root directory with the following content:
+
+   ```bash
+   BOT_TOKEN=<your_bot_token>
+   ```
+
+## Usage
+
+To start the bot in development mode, run the following command:
+
+```bash
+npm run dev
+```
+
+This command uses nodemon to automatically reload the server when you make changes to your code.
+
+To build and run the bot in production mode, use the following commands:
+
+```bash
+npm run build
+npm start
+```

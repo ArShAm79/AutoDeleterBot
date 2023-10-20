@@ -1,0 +1,32 @@
+{
+  "name": "telegramautodeletermessagebot",
+  "version": "1.0.0",
+  "description": "A telegram bot for deleting messages after a time",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc --build",
+    "start": "node --experimental-specifier-resolution=node build/index.js"
+  },
+  "type": "commonjs",
+  "keywords": [
+    "Telegraf",
+    "Telegram"
+  ],
+  "author": "Arsham79",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.8.7",
+    "@typescript-eslint/eslint-plugin": "^6.8.0",
+    "@typescript-eslint/parser": "^6.8.0",
+    "eslint": "^8.51.0",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "telegraf": "^4.14.0",
+    "tsconfig-paths": "^4.2.0"
+  }
+}
